@@ -123,7 +123,7 @@ these styles and create your own styles and layout for the application.
 
   /** Class for the button to add*/
   .joke-input-submit {
-    width: 100%;
+    width: 20%;
     margin: 1rem 0;
     border-radius: 0rem 0.5rem 0.5rem 0rem;
     background: rgb(62, 112, 15);
