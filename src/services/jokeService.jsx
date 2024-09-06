@@ -32,3 +32,7 @@ export const deleteJoke = async (jokeToDelete) => {
     return fetch(`http://localhost:8088/jokes/${jokeToDelete.id}`, putOptions)
     .then((response) => response.json());
 }
+
+export const fetchAllJokes = () => {
+    return getAllJokes()
+}
